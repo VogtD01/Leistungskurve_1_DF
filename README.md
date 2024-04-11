@@ -1,7 +1,5 @@
 # Leistungskurve_1_DF
 first assignment
-# hallo felix
-# Hallo
 
 # Bitte lies mich!
 
@@ -16,5 +14,5 @@ first assignment
     - Linux: `source .venv/bin/activate`
 - Installiere die Pakete
     - Entweder mit `pip install <paketname>`
-    - Oder mit `pip install -r requirement.txt`
+    - Oder mit `pip install -r requirements.txt`
     
