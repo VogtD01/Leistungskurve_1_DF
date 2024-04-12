@@ -6,15 +6,17 @@ import numpy as np
 data=load_data('activity.csv')  
 
 power_original = data['PowerOriginal']
-power_sorted = bubble_sort(power_original)  # Sort the data
+# Sort the data
+power_sorted = bubble_sort(power_original) 
 
-plt.show()
+#create plot
 time = np.arange(0, len(power_original), 1)
 plt.plot(time/60, power_sorted)
-plt.xlabel('Time (minutes)')    
-plt.ylabel('Power (W)')
-
-
+plt.xlabel("t / min")    
+plt.ylabel("P / W")
+plt.title("Power-Cruve")
 plt.show()
-print(np.size(power_original))
+
+#save plot
+plt.savefig("figures.png")
 
