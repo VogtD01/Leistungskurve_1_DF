@@ -14,7 +14,7 @@ time = np.arange(0, len(power_original), 1)
 plt.plot(time/60, power_sorted)
 plt.xlabel("t / min")    
 plt.ylabel("P / W")
-plt.title("Power-Cruve")
+plt.title("Power-Curve")
 plt.show()
 
 #save plot
