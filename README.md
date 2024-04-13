@@ -14,5 +14,11 @@ First assignment Programmierübung 2
 - Installiere die Pakete
     - Entweder mit `pip install <paketname>`
     - Oder mit `pip install -r requirements.txt`
-    -
+
+## App Benutzung
+
+- Öffne die main.py
+    - füge in der sechsten Zeile die csv-Datei in die `load_data()` Funktion ein
+    - Führe das Kernel aus
+    - Das Programm sortiert nun die Daten der Leistungskurve, plottet mit diesen eine Grafik und speichert sie in den Ordner'figures'
     
