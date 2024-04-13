@@ -17,7 +17,7 @@ First assignment Programmierübung 2
     - 
 
   ## App Benutzung
-  - Öffne die main.py
+- Öffne die main.py
       - füge in der sechsten Zeile deine csv-Datei in die 'load_data()' Funktion ein
       - Führe das Kernal aus
       - Das Programm sortiert nun die Daten der Leistungskurve, plottet mit diesen eine Grafik und speichert diese in dem Ordner 'figures'
